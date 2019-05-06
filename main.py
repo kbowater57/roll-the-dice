@@ -30,4 +30,4 @@ while all_done == 0:
             print("What kind of an answer is that?!")
             all_done = 1
     except (ValueError,NameError):
-        print("A dice can't have " + sides_untested + " sides!")
+        print("A dice can't have " + sides_untested + " sides! Try again.")
